@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "menus": [
+    {
+      "id": "demo_menu_1",
+      "meal": "dinner",
+      "title": "Akşam yemeği menüsü",
+      "items": [
+        "1 porsiyon Örnek Sebze Kasesi",
+        "1 kase yoğurt"
+      ],
+      "notes": [],
+      "linked_recipes": [
+        "Örnek Sebze Kasesi"
+      ],
+      "sources": [
+        {
+          "source_pdf": "Diyet_Listesi_1.pdf",
+          "pages": [
+            1
+          ],
+          "option": "1. seçenek",
+          "original_meal": "dinner"
+        }
+      ]
+    }
+  ]
+}

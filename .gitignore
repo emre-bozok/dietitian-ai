@@ -1,0 +1,42 @@
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+*service_account*.json
+# Private documents, catalogs, derived data, and sessions
+data/
+*.pdf
+*.local.json
+*.local.json.*
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.tmp
+/recipes.json
+/recipes_index.json
+/dinner_menus.json
+/dinner_menus_report.json
+.adk/
+**/.adk/
+# Environments, caches and editor state
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+.backups/
+build/
+dist/
+*.egg-info/

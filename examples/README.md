@@ -1,0 +1,1 @@
+All records here are synthetic software fixtures created for this portfolio. They are not extracted from private documents and are not dietary advice. Source identifiers are fictional; no source PDF is included.

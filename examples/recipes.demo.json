@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Örnek Sebze Kasesi",
+    "category": [
+      "sebze"
+    ],
+    "ingredients": [
+      "1 kabak",
+      "1 havuç"
+    ],
+    "instructions": "Sebzeleri doğrayıp tavada pişirin.",
+    "metadata": {
+      "source_pdf": "Diyet_Listesi_1.pdf"
+    }
+  }
+]
