@@ -1,6 +1,6 @@
 # Dietitian AI
 
-A Turkish recipe and menu assistant that retrieves records from dietitian PDFs and preserves source references, portions, and alternative menu options.
+A recipe and menu assistant that retrieves records from dietitian PDFs and preserves source references, portions, and alternative menu options.
 
 This portfolio snapshot contains the application code, deterministic tests, and synthetic demo catalogs. Private diet documents, extracted records, embeddings, session history, local path mappings, and credentials are excluded.
 
@@ -8,7 +8,7 @@ This portfolio snapshot contains the application code, deterministic tests, and 
 
 - Extracts structured recipes with a local Ollama model and Pydantic validation.
 - Parses lunch and dinner options locally and presents them in a combined evening-menu catalog, retaining each original meal label.
-- Supports Turkish keyword retrieval and BM25/vector hybrid search with Gemini embeddings.
+- Supports keyword retrieval and BM25/vector hybrid search with Gemini embeddings.
 - Validates embedding counts, dimensions, model identity, and catalog fingerprints before caching; falls back to keyword search when semantic retrieval fails.
 - Uses Google ADK tools to list recipes, retrieve variants, search ingredients, and find linked menus.
 - Keeps source variants and portions separate, and instructs the assistant to avoid inventing missing preparation steps.
@@ -64,6 +64,10 @@ python -m unittest discover -s tests -v
 ```
 
 The suite covers parser boundaries, multi-page menus, source identities, recipe variants, extraction failure handling, embedding validation, and retrieval fallback. Model clients are mocked in the search tests; these tests do not establish live-model accuracy.
+
+## Language configuration
+
+The included examples, agent instructions, keyword normalization, and PDF heading rules use Turkish. Supporting other document languages requires adapting the relevant prompts and parsing rules and validating retrieval quality. This snapshot does not include a multilingual evaluation.
 
 ## Limits
 
